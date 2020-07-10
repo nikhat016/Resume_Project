@@ -1,0 +1,232 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+section{
+    padding: 50px 0;
+}
+html,
+body{
+    background-color: #fff;
+    color:#555;
+    font-family:'Lato','Arial',sans-serif;
+    font-size: 20px;
+    font-weight:300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    background-color: #f4f4f4;
+}
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+}
+/**************HEADINGS****************/
+h1{
+    color: #031a7e;
+    font-size: 240%; 
+    word-spacing: 4px;
+    letter-spacing:1px;
+}
+
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px; 
+    letter-spacing:1px;
+    text-transform: uppercase;
+    color: #031a7e;
+}
+h3{
+    font-size: 110%;
+    word-spacing: 2px;
+    letter-spacing:1px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #031a7e;
+    
+}
+h2:after{
+    display:block;
+    height: 2px;
+    background-color: #031a7e;
+    content: " ";
+    width: 100px;
+    margin-top: 30px;
+    margin: 0 auto;
+}
+.hero-text-box{
+    position: relative;
+    width:1140px;
+    left:35%;
+    
+    text-transform: uppercase;
+    margin-top: 0;
+   -webkit-transform:translate(-0%, -90%);
+}
+.logo
+{
+    height: 150px;
+    width: auto;
+    margin-top: 170px;
+    border-radius: 200%;
+    margin-left: 200px;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 2px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+.main-nav li a:link,
+.main-nav li a:visited
+{
+    padding: 8px 0;
+    color: #031a7e;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+.main-nav li a:hover,
+.main-nav li a:active
+{
+    border-bottom:2px solid rgba(4, 51, 255, 0.93);
+}
+/*********CONTACT*********/
+.contact{
+    list-style: none;
+    text-transform: lowercase;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing:1px;
+    transform: translate(0%,-20%);
+    color: #01060a
+}
+/****************EDUCATION AND TECHNICAL SKILLS***************/
+
+.edu-box,
+.tech-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    -webkit-box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.edu-box div,
+.tech-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.edu-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.edu-box div:last-child {
+    text-align: center;
+    border: 0;
+}
+
+
+.ins {
+    font-size: 200%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #031a7e;
+}
+
+.edu-box ul,.tech-box ul {
+    list-style: none;
+}
+
+.edu-box ul li, .tech-box ul li {
+    padding: 5px 0;
+    text-align: left;
+}
+/****************PROJECTS***************/
+.project-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 7%;
+    -webkit-box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #efefef;
+}
+.project-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.ptext{
+    padding: 5px 0;
+    padding-left: 30px;
+    text-align: left;
+    word-spacing: 2px;
+}
+/***********INTERNSHIP**********/
+.intern-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 6%;
+    -webkit-box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #efefef;
+}
+.intern-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.itext{
+    padding: 5px 0;
+    padding-left: 30px;
+    text-align: left;
+    word-spacing: 2px;  
+}
+/********Sticky**********/
+.sticky{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited
+{
+    padding: 16px 0;
+    color: #555;
+    
+}
+.sticky .main-nav{
+    margin-top: 15px;
+}
+/********Animations******/
+.js--wp-in,.js--wp-pro{
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-logo,.js--wp-edu,.js--wp-ach,.js--wp-cou,.js--wp-cou1 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-in.animated,.js--wp-pro{
+    opacity: 1;
+}
